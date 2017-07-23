@@ -23,13 +23,9 @@ static const char *tags[] = {"1", "2", "3", "4", "5", "6", "7", "8", "9" };
 static const Rule rules[] = {
 	/* class              instance    title       tags mask     isfloating    monitor */
 	{ "Gimp*",            NULL,       NULL,       0,            True,         0 },
-	{ "Meld",             NULL,       NULL,       0,            True,         0 },
 	{ "Firefox",          NULL,       NULL,       1,            False,        0 },
 	{ "Google-chrome",    NULL,       NULL,       1,            False,        0 },
-	{ "Pidgin",           NULL,       NULL,       1 << 1,       False,        0 },
-	{ "psi",              NULL,       NULL,       1 << 1,       False,        0 },
-	{ "XCalc",            NULL,       NULL,       0,            True,         0 },
-	{ "burp-StartBurp",   NULL,       NULL,       0,            True,         0 },
+	{ "Chromium",         NULL,       NULL,       1,            False,        0 },
 	{ "Wireshark",        NULL,       NULL,       0,            True,         0 }
 };
 
